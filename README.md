@@ -22,6 +22,20 @@ An interactive public-health dashboard exploring vaccination coverage and report
 ## Analytical boundaries
 This work does not claim individual-level causation. The all-disease explorer is descriptive; the state-specific lag models shown here concern **measles** and were produced within the team's analysis workflow. The project depends on surveillance and NIS-Child-derived data with different populations and possible missingness/confounding.
 
+## Dashboard Screenshots
+
+### MMP Master Dataset Explorer
+![MMP Explorer](images/mmp_explorer.png)
+
+### California and Florida Comparison
+![State Comparison](images/state_comparison.png)
+
+### Florida Time-Lagged Analysis
+![Florida Lag Analysis](images/florida_lag_analysis.png)
+
+### Data Quality and Completeness
+![Data Quality](images/data_quality.png)
+
 ## Team acknowledgment and attribution
 
 This dashboard was developed as part of **BIOT 670I Group 1**, a collaborative capstone project by:
