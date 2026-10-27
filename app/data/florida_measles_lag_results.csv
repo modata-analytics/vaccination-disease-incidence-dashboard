@@ -1,0 +1,7 @@
+state,disease,outcome,lag_years,pearson_r,p_value,n,significant_0_05
+FL,measles,incidence_per_100k,0,-0.19850859584716668,0.4297353919725854,18,False
+FL,measles,incidence_per_100k,1,0.06515503346082467,0.8405616507944829,12,False
+FL,measles,incidence_per_100k,2,0.2316766825516559,0.4254694721243909,14,False
+FL,measles,incidence_per_100k,3,0.5872945802404135,0.07423640222987501,10,False
+FL,measles,incidence_per_100k,4,0.13847925975146447,0.6847013637643046,11,False
+FL,measles,incidence_per_100k,5,0.4428495526946471,0.23257296678345998,9,False
