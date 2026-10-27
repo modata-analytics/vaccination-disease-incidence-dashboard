@@ -151,17 +151,7 @@ Additional contributions included improving application usability, troubleshooti
 
 ## Dashboard Screenshots
 
-### MMP Master Dataset Explorer
-![MMP Explorer](images/mmp_explorer.png)
-
-### California and Florida Comparison
-![State Comparison](images/state_comparison.png)
-
-### Florida Time-Lagged Analysis
-![Florida Lag Analysis](images/florida_lag_analysis.png)
-
-### Data Quality and Completeness
-![Data Quality](images/data_quality.png)
+<div align="center">
 
 ### MMP Master Dataset Explorer
 
