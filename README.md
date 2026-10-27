@@ -7,11 +7,11 @@
 
 **BIOT 670I Capstone Project | University of Maryland Global Campus | 2026**
 
-![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-Data_Analysis-150458?logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?logo=plotly&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Collaborative_Development-181717?logo=github&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
 <p>
   <a href="https://biot670i-group1.streamlit.app/">
@@ -19,11 +19,11 @@
   </a>
   &nbsp; | &nbsp;
   <a href="https://github.com/FusRaDa/biot670i_capstone_vaccination_project">
-    <strong>Original Group Repository</strong>
+    <strong>Original Team Repository</strong>
   </a>
   &nbsp; | &nbsp;
   <a href="Moira_Overly_Capstone_Contributions.ipynb">
-    <strong>My Contributions</strong>
+    <strong>My Contribution Notebook</strong>
   </a>
 </p>
 
@@ -35,21 +35,21 @@
 
 ## Project Overview
 
-This project explores the relationship between vaccination coverage and reported incidence of three vaccine-preventable diseases:
+This project investigates population-level associations between vaccination coverage and the incidence of three vaccine-preventable diseases:
 
 - **Measles**
 - **Mumps**
 - **Pertussis**
 
-Developed collaboratively for the BIOT 670I Capstone Project, the application integrates vaccination coverage, disease surveillance, and population data into interactive visualizations and exploratory analytical tools.
+Developed collaboratively for the BIOT 670I Capstone Project at the University of Maryland Global Campus, the application brings together vaccination coverage, infectious disease surveillance, and population data in an interactive analytical environment.
 
-The dashboard enables users to examine historical disease trends, compare geographic patterns, investigate time-lagged associations, and assess data completeness.
+The dashboard enables users to explore historical trends, compare geographic patterns, investigate time-lagged associations, and assess data completeness.
 
 ### Research Question
 
 > How are changes in vaccination coverage associated with the incidence of vaccine-preventable diseases across geographic regions and time?
 
-The project uses an ecological observational approach. Its findings are exploratory and do not establish causal relationships.
+The project uses an ecological observational approach. Findings are exploratory and should not be interpreted as evidence of causation.
 
 ---
 
@@ -78,18 +78,18 @@ The project uses an ecological observational approach. Its findings are explorat
   </tr>
   <tr>
     <td>My Role</td>
-    <td>Dashboard Development, Data Visualization, Data Quality Integration</td>
+    <td>Dashboard Development, Data Visualization, and Data Quality Integration</td>
   </tr>
   <tr>
     <td>Technologies</td>
     <td>Python, Streamlit, pandas, Plotly, Git, GitHub</td>
   </tr>
   <tr>
-    <td>Primary Case Studies</td>
+    <td>Featured Case Studies</td>
     <td>California and Florida</td>
   </tr>
   <tr>
-    <td>Historical Data</td>
+    <td>Historical Period</td>
     <td>1995–2017</td>
   </tr>
 </table>
@@ -98,39 +98,43 @@ The project uses an ecological observational approach. Its findings are explorat
 
 ## My Technical Contributions
 
-My primary responsibility was developing and refining the user-facing Streamlit dashboard, integrating team-produced analytical outputs, and improving the presentation of statistical uncertainty and data quality.
+My primary responsibility was developing and refining the interactive Streamlit dashboard, integrating team-produced data and statistical results, and improving data-quality reporting and scientific communication.
 
 ### 1. MMP Master Dataset Explorer
 
-Developed an interactive Streamlit interface for exploring vaccination coverage and disease incidence across California and Florida.
+Developed an interactive interface allowing users to explore vaccination coverage and disease incidence across California and Florida.
 
-**Key features:**
+**Features implemented:**
 
-- Interactive measles, mumps, and pertussis selection.
-- California and Florida state comparisons.
-- Historical vaccination coverage visualizations.
-- Disease incidence rates per 100,000 residents.
-- Disease-specific data-completeness reporting.
-- Missing-observation identification.
-- Dynamic chart scaling and improved readability.
+- Interactive selection of measles, mumps, and pertussis.
+- California and Florida comparisons.
+- Historical vaccination coverage trends.
+- Disease incidence visualizations normalized per 100,000 residents.
+- Disease-specific data-completeness summaries.
+- Identification of incomplete state-year observations.
+- Dynamic chart scaling and improved visualization formatting.
+- Preservation of missing observations without interpolation.
 
 ### 2. California and Florida Measles Case Studies
 
-Developed and expanded dedicated state-level analytical interfaces.
+Developed and expanded state-specific analytical interfaces to present historical measles trends and the team's time-lagged analyses.
 
-**Key features:**
+**Features implemented:**
 
 - Historical vaccination coverage and measles incidence charts.
 - Interactive selection of 0–5-year lag periods.
 - Display of Pearson correlation coefficients.
 - Statistical p-values and observation counts.
-- Integration of revised team-generated lag results.
-- Sample-size warnings and statistical interpretation.
-- Historical policy context and methodological limitations.
+- Integration of updated California and Florida analytical results.
+- Dynamic interpretation of positive and negative correlations.
+- Sample-size warnings and statistical uncertainty explanations.
+- Historical context and methodological limitations.
+
+The underlying correlation analyses were developed through the team's statistical workflow, including updated California and Florida results prepared by Kalkidan Perin.
 
 ### 3. Data Quality and Analytical Transparency
 
-Implemented data-quality features to help users assess the completeness and reliability of the observations supporting each analysis.
+Implemented features to help users evaluate the completeness and reliability of the observations supporting the statistical findings.
 
 These features include:
 
@@ -138,68 +142,145 @@ These features include:
 - Calculation of data completeness percentages.
 - Calendar-year lag-pair validation.
 - Comparison of available and reported statistical sample sizes.
-- Explanations of confounding and ecological fallacy.
-- Distinction between correlation and causation.
+- Expandable tables displaying underlying observations.
+- Explanations of confounding, ecological fallacy, and statistical uncertainty.
+
+A primary objective was ensuring that missing observations were not interpreted as zero reported cases and that calendar-year gaps were handled appropriately.
 
 ### 4. Visualization and Application Integration
 
-Used Python, pandas, Plotly, and Streamlit to integrate datasets and statistical results into an interactive application.
+Used Python, pandas, Plotly, and Streamlit to integrate collaborative research outputs into an accessible application.
 
-Additional contributions included improving application usability, troubleshooting chart-rendering issues, standardizing visualizations, and developing features through GitHub branches and pull requests.
+Additional contributions included:
+
+- Improving dashboard navigation and usability.
+- Developing reusable visualization components.
+- Correcting Plotly title and labeling issues.
+- Improving annual x-axis readability.
+- Implementing dynamic vaccination coverage axis scaling.
+- Integrating new state-level datasets.
+- Developing and testing features through GitHub branches and pull requests.
 
 ---
 
 ## Dashboard Screenshots
 
+The following screenshots demonstrate the interactive visualization, statistical interpretation, and data-quality features implemented within the application.
+
 <div align="center">
 
-### MMP Master Dataset Explorer
+<h3>MMP Master Dataset Explorer</h3>
 
-<img src="images/mmp_explorer.png" alt="MMP Master Dataset Explorer" width="850">
+<img
+  src="images/MMP%20Master%20Dataset%20Explorer.png"
+  alt="MMP Master Dataset Explorer"
+  width="850"
+/>
 
-<em>Interactive exploration of vaccination coverage and disease incidence across California and Florida.</em>
+<p>
+  <em>
+    The Streamlit interface allows users to select diseases and states,
+    explore historical trends, and examine data availability.
+  </em>
+</p>
 
-<br><br>
+<hr>
 
-### California and Florida Comparison
+<h3>California and Florida Comparison</h3>
 
-<img src="images/state_comparison.png" alt="California and Florida vaccination comparison" width="850">
+<img
+  src="images/California%20and%20Florida%20Comparison.png"
+  alt="California and Florida vaccination and measles incidence comparison"
+  width="850"
+/>
 
-<em>Comparative visualization of state-level epidemiological trends.</em>
+<p>
+  <em>
+    Comparative visualization of measles vaccination coverage and
+    reported incidence across California and Florida from 1995–2017.
+  </em>
+</p>
 
-<br><br>
+<hr>
 
-### Florida Time-Lagged Analysis
+<h3>Florida Time-Lagged Analysis</h3>
 
-<img src="images/florida_lag_analysis.png" alt="Florida measles time-lagged analysis" width="850">
+<img
+  src="images/Florida%20Time-Lagged%20Analysis.png"
+  alt="Florida measles lag analysis"
+  width="850"
+/>
 
-<em>Interactive presentation of Pearson correlation, statistical significance, and sample size across lag periods.</em>
+<p>
+  <em>
+    Interactive presentation of lagged Pearson correlations,
+    p-values, sample sizes, and statistical interpretation.
+  </em>
+</p>
 
-<br><br>
+<hr>
 
-### Data Quality and Completeness
+<h3>Data Quality and Completeness</h3>
 
-<img src="images/data_quality.png" alt="Data quality and completeness dashboard" width="850">
+<img
+  src="images/Data%20Quality%20and%20Completeness.png"
+  alt="Data quality and completeness dashboard"
+  width="850"
+/>
 
-<em>Reporting of available observations, missing data, and calendar-year pair validation.</em>
+<p>
+  <em>
+    State-level data completeness reporting with
+    available measurements and underlying observations.
+  </em>
+</p>
 
 </div>
 
 ---
 
-## Data and Methodology
+## Data and Analytical Methodology
 
-The collaborative project combines publicly available vaccination coverage, disease surveillance, and population datasets.
+The collaborative project uses publicly available vaccination coverage, disease surveillance, and population data to examine vaccine-preventable disease patterns.
 
-Its analytical workflow includes descriptive comparisons and exploratory time-lagged associations.
+The analytical workflow includes two complementary components.
 
-My dashboard contributions focus on integrating, validating, visualizing, and explaining these analytical outputs.
+### Descriptive MMP Exploration
 
-The **MMP Master Explorer** provides descriptive information for measles, mumps, and pertussis.
+The MMP Master Explorer presents historical vaccination coverage and incidence trends for measles, mumps, and pertussis.
 
-The **California and Florida State Case Studies** provide additional measles-specific lag analyses generated through the group's statistical workflow.
+Users can compare California and Florida, inspect annual observations, and examine missing-data summaries.
 
-### Methodological Limitations
+This component is descriptive and does not independently calculate lagged correlations.
+
+### State-Specific Measles Lag Analysis
+
+The California and Florida State Case Studies present exploratory time-lagged associations between vaccination coverage and measles incidence.
+
+The analysis compares vaccination coverage in year *t* with measles incidence in year *t + lag*, using lag periods from zero to five years.
+
+Statistical results include:
+
+- Pearson correlation coefficient (*r*).
+- Statistical p-value.
+- Number of matched observations (*n*).
+
+The correlations are generated through the broader team's analytical workflow and incorporated into the dashboard for interactive examination.
+
+### Data Sources
+
+The project's master dataset integrates information derived from:
+
+- CDC National Immunization Survey-Child (NIS-Child).
+- Project Tycho disease surveillance data.
+- Supplemental infectious disease surveillance records.
+- Population estimates used to calculate incidence per 100,000 residents.
+
+For detailed data transformations, analytical methodology, and source documentation, consult the original collaborative repository.
+
+---
+
+## Methodological Limitations
 
 <table>
   <tr>
@@ -212,19 +293,23 @@ The **California and Florida State Case Studies** provide additional measles-spe
   </tr>
   <tr>
     <td>Population Differences</td>
-    <td>Vaccination coverage and disease incidence data may represent different age groups.</td>
+    <td>Vaccination coverage estimates and disease incidence measurements may represent different age groups.</td>
   </tr>
   <tr>
-    <td>Missing Data</td>
-    <td>Missing observations are not equivalent to zero reported cases.</td>
+    <td>Missing Observations</td>
+    <td>Missing values are not equivalent to zero reported cases.</td>
   </tr>
   <tr>
-    <td>Statistical Uncertainty</td>
-    <td>Correlations must be interpreted alongside sample sizes and p-values.</td>
+    <td>Sample Size</td>
+    <td>Small analytical samples can produce unstable correlation estimates.</td>
   </tr>
   <tr>
     <td>Confounding</td>
-    <td>Population characteristics, policies, reporting practices, and temporal trends may influence results.</td>
+    <td>Population characteristics, healthcare access, vaccination policies, surveillance practices, and temporal trends may influence observed associations.</td>
+  </tr>
+  <tr>
+    <td>Statistical Significance</td>
+    <td>P-values should be interpreted alongside effect sizes, sample sizes, and exploratory multiple-lag comparisons.</td>
   </tr>
   <tr>
     <td>Causation</td>
@@ -234,22 +319,62 @@ The **California and Florida State Case Studies** provide additional measles-spe
 
 ---
 
+## Repository Structure
+
+```text
+vaccination-disease-incidence-dashboard/
+│
+├── README.md
+├── Moira_Overly_Capstone_Contributions.ipynb
+├── images/
+│   ├── MMP Master Dataset Explorer.png
+│   ├── California and Florida Comparison.png
+│   ├── Florida Time-Lagged Analysis.png
+│   └── Data Quality and Completeness.png
+│
+├── app/
+│   ├── app.py
+│   ├── data/
+│   ├── pages/
+│   ├── static/
+│   └── .streamlit/
+│
+└── requirements.txt
+```
+
+The personal repository contains a copy of the collaborative Streamlit application, its supporting files, and documentation emphasizing my individual development contributions.
+
+---
+
 ## Running the Application Locally
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/modata-analytics/vaccination-disease-incidence-dashboard.git
+
 cd vaccination-disease-incidence-dashboard
 ```
 
-### 2. Install dependencies
+### 2. Create a Python virtual environment
+
+```bash
+python -m venv .venv
+```
+
+On Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+### 3. Install project dependencies
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-### 3. Launch Streamlit
+### 4. Launch the application
 
 ```bash
 python -m streamlit run app/app.py
@@ -261,13 +386,13 @@ The application requires the included datasets and supporting project files.
 
 ## Individual Contribution Documentation
 
-For additional information about my dashboard development, implementation decisions, and validation procedures, see:
+My contribution notebook documents the technical work involved in developing and integrating the dashboard.
 
 <a href="Moira_Overly_Capstone_Contributions.ipynb">
-  <strong>Moira Overly — Capstone Contributions Notebook</strong>
+  <strong>View My Capstone Contributions Notebook</strong>
 </a>
 
-The notebook provides supporting technical documentation for my individual role within the collaborative project.
+It provides additional information about implementation decisions, data quality, visualization development, and collaborative integration.
 
 ---
 
@@ -304,28 +429,30 @@ This project was developed collaboratively by **BIOT 670I Group 1 (2026)** at th
   </tr>
 </table>
 
-I acknowledge my teammates for their contributions to the research, data preparation, statistical analyses, software development, and scientific direction of the project.
+I acknowledge my teammates for their contributions to the research, data preparation, statistical analyses, software development, and overall scientific direction of the project.
 
-The collaborative work included:
+Our collective work included:
 
 - Gathering and harmonizing public health datasets.
-- Developing analytical methods.
-- Investigating vaccination coverage and disease incidence.
-- Conducting exploratory time-lagged analyses.
+- Developing disease incidence and vaccination coverage measures.
+- Investigating temporal and geographic trends.
+- Conducting exploratory statistical analyses.
 - Developing and maintaining the shared Streamlit application.
-- Evaluating methodological limitations and uncertainty.
+- Evaluating methodological limitations and scientific uncertainty.
 
-My individual contributions focused primarily on dashboard development, the MMP Master Explorer, California and Florida measles case-study integration, data-quality reporting, and user-interface improvements.
+**My individual contributions** focused on interactive dashboard development, MMP Master Explorer implementation, California and Florida measles case-study integration, data-quality reporting, visualization improvements, and scientific communication.
 
-The underlying datasets and statistical results reflect contributions from the broader team. This repository does not represent the entire project as independently developed work.
+The underlying datasets, statistical results, and other application components reflect contributions from the broader team.
 
-### Original Collaborative Project
+This repository is not intended to represent the complete project as independently developed work.
+
+### Original Collaborative Repository
 
 <a href="https://github.com/FusRaDa/biot670i_capstone_vaccination_project">
   <strong>BIOT 670I Group 1 — Original GitHub Repository</strong>
 </a>
 
-This personal repository preserves a copy of the collaborative application for educational and portfolio purposes while highlighting my individual contributions. It is not intended to replace the original project or claim sole authorship.
+This personal repository preserves a copy of the collaborative application for educational and professional portfolio purposes, with an emphasis on my individual technical contributions.
 
 ---
 
@@ -334,14 +461,16 @@ This personal repository preserves a copy of the collaborative application for e
 This repository serves as a technical portfolio demonstrating experience with:
 
 - Public health and epidemiological data.
-- Python-based dashboard development.
-- Interactive data visualization.
+- Python-based application development.
+- Streamlit dashboard design.
+- Interactive Plotly data visualization.
 - Data-quality assessment.
-- Statistical interpretation and scientific communication.
-- Collaborative GitHub development.
-- Integration of analytical results into user-facing applications.
+- Statistical interpretation.
+- Scientific communication.
+- Git and collaborative software development.
+- Integration of independently developed analytical components.
 
-The application demonstrates how epidemiological datasets and analytical outputs can be presented through accessible interactive tools while maintaining appropriate scientific transparency.
+The application illustrates how epidemiological datasets and statistical results can be presented through interactive analytical tools while maintaining methodological transparency.
 
 ---
 
@@ -351,12 +480,12 @@ The application demonstrates how epidemiological datasets and analytical outputs
 
 **University of Maryland Global Campus | 2026**
 
-<em>Collaborative research, reproducible analysis, and responsible scientific visualization.</em>
+*Collaborative research, reproducible analysis, and responsible scientific visualization.*
 
-<br><br>
-
-<a href="https://github.com/FusRaDa/biot670i_capstone_vaccination_project">
-  Original Project Repository
-</a>
+<p>
+  <a href="https://github.com/FusRaDa/biot670i_capstone_vaccination_project">
+    Original Project Repository
+  </a>
+</p>
 
 </div>
